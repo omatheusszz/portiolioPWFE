@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .linha1 {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box1, .box2, .box3, .box4 {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+        }
+
+        /* Estilos para telas maiores */
+        @media (min-width: 768px) {
+            .box1, .box2, .box3, .box4 {
+                flex-basis: calc(25% - 20px);
+            }
+        }
+
+        /* Estilos para telas menores */
+        @media (max-width: 767px) {
+            .box1, .box2, .box3, .box4 {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CRISTIANO RONALDO</h1>
+</header>
+
+<div class="linha1">
+    <div class="box1">
+        <img id="img1" src="cr7.webp" width="93%">
+        <h1>REAL MADRID</h1>
+        <p>Após nove anos, o português deixou o clube espanhol – mas com um enorme legado. Foram 438 jogos pelo Real Madrid, 15 títulos, 131 assistências e 450 gols. A passagem de Cristiano Ronaldo pelo Real Madrid com certeza não passou despercebida.</p>
+    </div>
+    <div class="box2">
+        <img id="img2" src="cr72.webp" width="93%">
+        <h1>JUVENTUS</h1>
+        <p>Além disso, CR7 chegou à marca centenária na Juventus em menos tempo do que outros 12 jogadores que atingiram essa cifra vestindo a camisa da Velha Senhora. O atacante, artilheiro do Italiano com 28 gols, alcançou em 131 partidas e em sua terceira temporada no time de Turim.</p>
+    </div>
+    <div class="box3">
+        <img id="img3" src="crmu2.jpg" width="93%">
+        <h1>MANCHESTER UNITED</h1>
+        <p>O craque Português jogou a temporada 22-23 pela Juventus, marcando 14 gols em 23 compromissos, embora não tenha conseguido levar a equipe italiana a uma final europeia.</p>
+    </div>
+    <div class="box4">
+        <img id="img4" src="cr7an.webp" width="93%">
+        <h1>AL NASSR</h1><br>
+        <p>Atualmente Cristiano está jogando pelo Al Nassr e neste sábado o Al-Nassr conquistou o título inédito da Liga dos Campeões Árabes.</p>
+    </div>
+</div>
+</body>
+</html>
