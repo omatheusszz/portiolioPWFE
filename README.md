@@ -14,4 +14,4 @@ Este repositório contém as atividades realizadas durante o segundo semestre de
   
 ## Autor
 - Matheus Almeida de Souza
-- Contato: matheussouza@aluno.senai.br
+- Contato: matheusasouza2007@gmail.com
